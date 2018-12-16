@@ -204,7 +204,7 @@ first need to copy and paste into R:
             {
                queryname <- "query2"
                thequery <- paste("AC=",accession,sep="")
-               query(`queryname`,`thequery`)
+               query2 <- query(`queryname`,`thequery`)
                # see if a sequence was retrieved:
                seq <- getSequence(query2$req[[1]])
                closebank()
